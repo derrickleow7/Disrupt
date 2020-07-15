@@ -1,7 +1,7 @@
 {
   "name": "disruption",
   "version": "1.0.0",
-  "description": "Git and Node",
+  "description": "Disruption",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +11,13 @@
   "repository": {
     "type": "git"
   },
-  "author": "",
+  "author": "Derrick Leow",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3"
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
   }
 }

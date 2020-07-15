@@ -1,21 +1,103 @@
-<div class="jumbotron text-center">
-    <h1>My First Bootstrap Page</h1>
-    <p>Resize this responsive page to see the effect!</p>
-  </div>
-  
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor..</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Column 2</h3>
-        <p>Lorem ipsum dolor..</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Column 3</h3>
-        <p>Lorem ipsum dolor..</p>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Singapore Airlines - LAX Flight Disruption Management</title>
+    </head>
+
+<body>
+    <div class="container">
+        <div class=""row>
+            <div class="col"></div>
+        </div>
     </div>
-  </div>
+
+ <header class="jumbotron jumbotron-fluid">    
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.singaporeair.com/en_UK/sg/home#/book/bookflight" title="Singapore Airlines"><img src="img/Logo1.png" class="img-fluid" alt="Responsive image" /></a>
+                    </div>
+                    <div class="col"> 
+                    
+                        <h2><strong>LAX Flight Disruption Management</strong></h2>
+                    </div>
+                </div>
+            </div>
+</header>       
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top"></nav> 
+
+ 
+    <div class="container">
+        <div class="row bg-info">
+           <h3><strong>Dear Customer</strong></h3>
+        <p>We regret to inform you that your flight <strong>SQ037</strong>, scheduled to depart from Los Angeles to Singapore on <strong>01 January 2020</strong>, has been disrupted.</p>
+        <p>Using this self-service portal, you will be able to check your flight status, retrieve hotel and/or meal vouchers (if applicable) and submit additional request for your rebooking flights. </p> 
+        <p>You may use our <a href="https://www.singaporeair.com/request.form" class="stretched-link">Assistance Request Form</a> to retain the unused portion of your ticket as flight credits, rebook or request for a refund. If you require any further assistance, please contact us in the email below. </p> 
+        <p>You may wish to refer to the <a href="https://www.singaporeair.com/en_UK/sg/travel-info/precautionary-measures--faq/" class="stretched-link">Frequently Asked Questions</a> on our website for more information. </p> 
+        <p> Our sincere apologies for any inconvenience caused. </p>
+        <p>Yours sincerely, </p>
+        <p> Singapore Airlines </p> 
+
+    </div>
+<br></br>
+
+
+<form class="form-inline" action="/action_page.php">
+    <div class="form-group">
+      <label for="booking">Booking Reference  </label>
+      <i class="fa fa-plane icon"></i>
+      <input type="text" class="form-control" id="booking" placeholder="Six-character booking reference">
+    </div>
+    <div class="form-group">
+      <label for="lname">Last Name  </label>
+      <i class="fa fa-drivers-license icon"></i>
+      <input type="text" class="form-control" id="lname" placeholder="As in passport">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+    <br></br>
+</div>
+</body>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">             
+
+                <div class="col-6 col-sm-5">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/singaporeair/?hl=en"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/singaporeair/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/SingaporeAir?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCIrr4E2y6Cv-2FSxk1_PBGQ"><i class="fa fa-youtube "></i></a>
+                </div>
+                    <div class="col-sm-2 ">
+                        <a role="button" class="btn btn-link" href="tel:+13101234567"><i class="fa fa-phone"></i> 1-310-123-4567</a><br />
+                        <a role="button" class="btn btn-link" href="mailto:LAX123@singaporeair.com.sg"><i class="fa fa-envelope-o"></i> LAX123@singaporeair.com.sg</a>
+                </div>                
+           </div>
+        </div>
+</footer>
+
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+
+</html>
